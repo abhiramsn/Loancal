@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.js">
+    <script src="main.js"></script>
     
     <title>Loan Calculator</title>
 </head>
@@ -50,36 +50,5 @@
 
         </main>
 
-
-        <script>
-            var amount =parseFloat(document.getElementById("amount").value);
-            var interest = parseFloat (document.getElementById("int").value);
-            var time= parseFloat( document.getElementById("time").value);
-
-                    //  amount*interest*(1+interest)^time  
-                    // __________________________________   : EMI Formula
-                    //     (1+interest)^time - 1
-                    function calculate()
-                    {
-                        var monthly_int_rate =parseFloat((interest/12)/100);
-                    
-                        
-                        
-                    }
-                    
-                    
-                    
-                    
-                    
-                    
-
-
-
-
-
-        </script>
-
-
-    
-</body>
+    </body>
 </html>
