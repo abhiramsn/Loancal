@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+header
+{
+    border: 1px solid black;
+} 
+
+header h1{
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+
+    border: 2px solid rgb(28, 196, 81);
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.section1{
+    border: 2px solid rgb(196, 28, 28);
+    margin: 20px;
+    display: block;
+    padding: 30px;
+    
+}
+
+.section2{
+    border: 2px solid rgb(41, 15, 212); 
+    margin: 20px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
