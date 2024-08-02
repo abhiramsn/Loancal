@@ -30,11 +30,11 @@ The Loan Calculator is a simple and user-friendly web application that allows us
 ## Setup Instructions
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/loan-calculator.git
+   git clone https://github.com/yourusername/Loancal.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd loan-calculator
+   cd Loancal
    ```
 3. **Open `index.html` in your web browser:**
    ```bash
