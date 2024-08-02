@@ -19,6 +19,6 @@
                        document.getElementById("total").value =total.toFixed(2) ;
                        document.getElementById("totalint").value =(total-amount).toFixed(2);
                      
-                    //    document.getElementById("result-box").style.display = "block";
+             
                         
                     }
