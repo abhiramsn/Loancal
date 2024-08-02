@@ -1,102 +1,104 @@
-body{
+body {
     margin: 0;
     font-family: 'Poppins';
-    /* background-image: ; */
     background-size: cover;
-    background: linear-gradient(rgba(6, 73, 107, 0.205),rgba(0, 0, 0, 0.461)) ,url("/Loancal/backgroundpicture.jpg");
+    background: linear-gradient(rgba(6, 73, 107, 0.205), rgba(0, 0, 0, 0.461)), url("/Loancal/backgroundpicture.jpg");
 }
 
-header
-{
-    /* border: 1px solid black; */
-} 
-
-header h2{
+header h2 {
     text-align: center;
     padding: 5px;
     color: aliceblue;
 }
 
-
-main{
+main {
     border-radius: 20px;
     border: 1px solid rgba(238, 234, 234, 0.621);
     background-color: rgba(238, 234, 234, 0.726);
-    height: 520px;
-    width: 600px;
-    margin: 0 auto;
-    
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-.section1 , .section2{
+.section1, .section2 {
     border: 1px solid rgba(255, 255, 255, 0.689);
-    margin: 15px;
+    margin: 15px 0;
     border-radius: 10px;
     padding: 15px;
-    
 }
 
-/* .section2{
-    border: 2px solid rgb(41, 15, 212); 
-    margin: 15px;
-    padding:15px;
-} */
-
-.input-field{
-    /* border: 2px solid rgb(28, 31, 196); */
-    padding: 10px;
-    padding-bottom:15px;
+.input-field {
     margin-bottom: 8px;
     display: flex;
-    justify-content: space-around;
-    font-size: 28px;
-
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
 }
-button{
+
+button {
     width: 180px;
-    height: 30px;
-    font-size: 14px;
-    font-family:'Poppins' ;
-    padding: 5px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 10px;
     border-radius: 10px;
-    border-width: 0;
-    position: relative;
+    border: none;
     background-color: rgb(10, 87, 142);
     color: aliceblue;
-    left: 20px;
+    margin-top: 20px;
 }
 
-input{
+input {
     width: 60%;
-    height: 20px;
+    height: 30px;
     border-radius: 4px;
-    border-width: 0 0px 1px 0px;
-    border-color: black;
+    border: none;
+    border-bottom: 2px solid black;
     background: transparent;
-    /* border: 1px solid rgb(28, 196, 137); */
     padding: 5px;
-
-    
 }
 
-label{
+label {
     width: 150px;
-    font-size: 16px;  
-    font-weight: bold;  
-    /* border: 1px solid rgb(196, 28, 137); */
+    font-size: 16px;
+    font-weight: bold;
 }
 
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
 
+    header h2 {
+        font-size: 24px;
+        padding: 10px 0;
+    }
 
+    main {
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+    }
 
+    .input-field {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 16px;
+    }
 
+    input {
+        width: 100%;
+        height: 25px;
+        margin-top: 10px;
+    }
 
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
 
-
-
-
-
-
-
-
-
+    .section1, .section2 {
+        margin: 10px 0;
+        padding: 10px;
+    }
+}
