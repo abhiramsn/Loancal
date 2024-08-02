@@ -76,8 +76,9 @@ label {
 
     main {
         border-radius: 10px;
-        width: 100%;
+        width: 90%;
         padding: 10px;
+        /* margin-right: 120px; */
     }
 
     .input-field {
@@ -90,6 +91,8 @@ label {
         width: 100%;
         height: 25px;
         margin-top: 10px;
+        color: rgb(2, 2, 2);
+        font-size: 18px;
     }
 
     button {
