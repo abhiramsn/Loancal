@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="main.js"></script>
     
     <title>Loan Calculator</title>
@@ -12,22 +13,28 @@
 <body>
 
         <header>
-            <h1>Loan Calculator</h1>
+            <h2>Loan Calculator</h2>
         </header>
         
         <main>
 
             <section class="section1">
 
-                <label for="amount" >Loan Amount</label>
-                <input type="number" id="amount" name="amount" placeholder="Enter loan amount">
-                <br>
+                <div class="input-field">
+                    <label for="amount" >Loan Amount</label>
+                    <input type="number" id="amount" name="amount" placeholder="Enter loan amount">
+                </div>
+            
 
-                <label for="int" >Annual Interest</label>
-                <input type="number" id="int" name="int" placeholder="Enter Annual Interest ">    <br>
+                <div class="input-field">
+                    <label for="int" >Annual Interest</label>
+                    <input type="number" id="int" name="int" placeholder="Enter Annual Interest ">
+                </div>
 
-                <label for="time" >Loan Term</label>
-                <input type="number" id="time" name="time" placeholder="Enter loan term">    <br>
+                <div class="input-field">
+                    <label for="time" >Loan Term</label>
+                    <input type="number" id="time" name="time" placeholder="Enter loan term">
+                </div> 
 
                 <button onclick="calculate();">Calculate</button>
 
@@ -36,14 +43,20 @@
 
             <section class="section2">
 
-                <label for="monthlypayment" >Monthly Payment</label>
-                <input type="number" id="monthlypayment" name="monthlypayment" placeholder="Enter loan amount"> <br>
+                <div class="input-field">
+                    <label for="monthlypayment" >Monthly Payment</label>
+                    <input type="number" id="monthlypayment" name="monthlypayment" placeholder="Enter loan amount">
+                </div>
 
-                <label for="total" >Total Payment</label>
-                <input type="number" id="total" name="total" placeholder="Total Payment"> <br>
+                <div class="input-field">
+                    <label for="total" >Total Payment</label>
+                    <input type="number" id="total" name="total" placeholder="Total Payment">
+                </div>
 
-                <label for="totalint" >Total Interest Paid</label>
-                <input type="number" id="totalint" name="totalint" placeholder="Total Interest"> <br>
+                <div class="input-field">
+                    <label for="totalint" >Total Interest Paid</label>
+                    <input type="number" id="totalint" name="totalint" placeholder="Total Interest">
+                </div>
 
             </section>
 
